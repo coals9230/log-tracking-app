@@ -81,7 +81,7 @@ public class LogController {
             cartForm.getQuantity().toString(),
             request  // clientIp, userAgent, referer 정보를 얻기 위해 HttpServletRequest 객체를 파라미터로 추가
         );
-        return "장바구니 추가 로그 1행 기록됨";
+        return "장바구니 추가 로그 1행 기록됨!";
     }
 
     @PostMapping("/order")
