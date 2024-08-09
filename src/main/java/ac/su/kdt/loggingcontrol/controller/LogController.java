@@ -60,7 +60,7 @@ public class LogController {
             "-",
             request  // clientIp, userAgent, referer 정보를 얻기 위해 HttpServletRequest 객체를 파라미터로 추가
         );
-        return "<h3 style='color:blue;'>상품 조회 로그 1행 기록됨"</h3>;
+        return "<h3 style='color:blue;'>상품 조회 로그 1행 기록됨</h3>";
     }
 
     @PostMapping("/cart")
